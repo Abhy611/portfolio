@@ -1,0 +1,60 @@
+.btn-primary,
+.btn-ghost{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px 20px;
+    border-radius:999px;
+    font-size:14px;
+    font-weight:500;
+    border:none;
+    cursor:pointer;
+    text-decoration:none;
+    transition:all .16s ease-out;
+}
+
+.btn-primary{
+    background:linear-gradient(135deg,#2563eb,#3b82f6);
+    color:#fff;
+    box-shadow:0 16px 36px rgba(37,99,235,0.4);
+}
+
+.btn-primary:hover{
+    transform:translateY(-1px);
+    box-shadow:0 22px 44px rgba(37,99,235,0.5);
+}
+
+.btn-ghost{
+    background:#fff;
+    color:var(--primary);
+    border:1px solid rgba(37,99,235,0.25);
+}
+
+.btn-ghost:hover{
+    background:rgba(37,99,235,0.06);
+}
+
+.card{
+    background:var(--bg-surface);
+    border-radius:var(--radius-lg);
+    padding:20px 22px;
+    box-shadow:var(--shadow-subtle);
+}
+
+.chip{
+    display:inline-flex;
+    align-items:center;
+    padding:4px 10px;
+    border-radius:999px;
+    font-size:11px;
+    background:rgba(37,99,235,0.06);
+    color:#1d4ed8;
+}
+
+.badge-soft{
+    padding:6px 10px;
+    border-radius:999px;
+    font-size:11px;
+    background:rgba(15,23,42,0.04);
+    color:#4b5563;
+}
